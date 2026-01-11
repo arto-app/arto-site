@@ -39,6 +39,49 @@ export default createRoute((c) => {
               View on GitHub
             </a>
           </div>
+          <div class="carousel" id="hero-carousel">
+            <div class="carousel-track">
+              <div class="carousel-slide active">
+                <img
+                  src="/images/hero-light.png"
+                  alt="Arto - GitHub-style Markdown rendering"
+                  class="carousel-img carousel-img-light"
+                />
+                <img
+                  src="/images/hero-dark.png"
+                  alt="Arto - GitHub-style Markdown rendering"
+                  class="carousel-img carousel-img-dark"
+                />
+              </div>
+              <div class="carousel-slide">
+                <img
+                  src="/images/carousel-mermaid.gif"
+                  alt="Arto - Interactive Mermaid diagrams"
+                  class="carousel-img"
+                />
+              </div>
+              <div class="carousel-slide">
+                <img
+                  src="/images/carousel-sidebar.gif"
+                  alt="Arto - File explorer sidebar"
+                  class="carousel-img"
+                />
+              </div>
+              <div class="carousel-slide">
+                <img
+                  src="/images/carousel-toc.gif"
+                  alt="Arto - Table of contents panel"
+                  class="carousel-img"
+                />
+              </div>
+            </div>
+            <div class="carousel-dots">
+              <button type="button" class="carousel-dot active" data-index="0" aria-label="Slide 1" />
+              <button type="button" class="carousel-dot" data-index="1" aria-label="Slide 2" />
+              <button type="button" class="carousel-dot" data-index="2" aria-label="Slide 3" />
+              <button type="button" class="carousel-dot" data-index="3" aria-label="Slide 4" />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -93,6 +136,27 @@ export default createRoute((c) => {
         </div>
       </section>
 
+      {/* Demo Video */}
+      <section class="section">
+        <div class="section-container">
+          <h2 class="section-title">See Arto in Action</h2>
+          <p class="section-subtitle">
+            Watch how Arto transforms your Markdown reading experience.
+          </p>
+          <div class="video-container">
+            <video
+              src="/videos/demo.mp4"
+              controls
+              preload="metadata"
+              poster="/images/hero-light.png"
+              class="demo-video"
+            >
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
       {/* Philosophy Section */}
       <section class="highlight-section">
         <div class="highlight-container">
@@ -120,7 +184,8 @@ export default createRoute((c) => {
           </p>
           <CodeBlock
             label="Terminal"
-            code="brew install --cask arto-app/tap/arto"
+            code={`brew install --cask arto-app/tap/arto
+xattr -dr com.apple.quarantine /Applications/Arto.app`}
           />
         </div>
       </section>

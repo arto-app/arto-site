@@ -174,7 +174,7 @@ cargo build --release`}
             </span>
             <span class="install-requirement">
               <IconCpu class="install-requirement-icon" size={16} stroke={2} />
-              Apple Silicon or Intel
+              Apple Silicon
             </span>
           </div>
           <div class="install-note-spaced">

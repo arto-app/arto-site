@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "hono": "^4.7.0",
-    "honox": "^0.1.0"
+    "honox": "^0.1.0",
+    "simple-icons": "^16.4.0"
   },
   "devDependencies": {
     "@hono/vite-ssg": "^0.1.0",

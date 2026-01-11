@@ -52,6 +52,24 @@ export default createRoute((c) => {
               desc="Documents automatically refresh when files change on disk, keeping your view up-to-date."
             />
           </div>
+          <div class="feature-demo-grid">
+            <div class="feature-demo">
+              <img
+                src="/images/feature-rendering.png"
+                alt="GitHub-style Markdown rendering"
+                class="feature-demo-img"
+              />
+              <p class="feature-demo-caption">GitHub-Style Rendering</p>
+            </div>
+            <div class="feature-demo">
+              <img
+                src="/images/feature-alerts.png"
+                alt="GitHub Alerts support"
+                class="feature-demo-img"
+              />
+              <p class="feature-demo-caption">GitHub Alerts</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -77,6 +95,34 @@ export default createRoute((c) => {
               name="KaTeX Math"
               desc="Render mathematical expressions beautifully with KaTeX support for inline and block math."
             />
+          </div>
+          <div class="feature-demo-grid">
+            <div class="feature-demo">
+              <img
+                src="/images/feature-syntax.png"
+                alt="Syntax highlighting"
+                class="feature-demo-img"
+              />
+              <p class="feature-demo-caption">Syntax Highlighting</p>
+            </div>
+            <div class="feature-demo">
+              <img
+                src="/images/feature-katex.png"
+                alt="KaTeX math rendering"
+                class="feature-demo-img"
+              />
+              <p class="feature-demo-caption">KaTeX Math</p>
+            </div>
+          </div>
+          <div class="feature-demo">
+            <img
+              src="/images/feature-mermaid.gif"
+              alt="Mermaid diagram interaction demo"
+              class="feature-demo-img"
+            />
+            <p class="feature-demo-caption">
+              Interactive Mermaid diagrams with zoom and pan
+            </p>
           </div>
         </div>
       </section>
@@ -112,6 +158,24 @@ export default createRoute((c) => {
               desc="Click links to other Markdown documents and navigate seamlessly between files."
             />
           </div>
+          <div class="feature-demo-grid">
+            <div class="feature-demo">
+              <img
+                src="/images/feature-sidebar.gif"
+                alt="File explorer sidebar demo"
+                class="feature-demo-img"
+              />
+              <p class="feature-demo-caption">File Explorer Sidebar</p>
+            </div>
+            <div class="feature-demo">
+              <img
+                src="/images/feature-toc.png"
+                alt="Table of contents panel"
+                class="feature-demo-img"
+              />
+              <p class="feature-demo-caption">Table of Contents Panel</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -141,6 +205,24 @@ export default createRoute((c) => {
                 Persistent multi-color highlighting that stays visible as you
                 navigate.
               </p>
+            </div>
+          </div>
+          <div class="feature-demo-grid">
+            <div class="feature-demo">
+              <img
+                src="/images/feature-search.png"
+                alt="Find in page"
+                class="feature-demo-img"
+              />
+              <p class="feature-demo-caption">Find in Page</p>
+            </div>
+            <div class="feature-demo">
+              <img
+                src="/images/feature-pinned.png"
+                alt="Pinned search with multi-color highlights"
+                class="feature-demo-img"
+              />
+              <p class="feature-demo-caption">Pinned Search</p>
             </div>
           </div>
         </div>
@@ -182,6 +264,14 @@ export default createRoute((c) => {
                 actions.
               </p>
             </div>
+          </div>
+          <div class="feature-demo">
+            <img
+              src="/images/feature-multiwindow.gif"
+              alt="Multi-window support"
+              class="feature-demo-img"
+            />
+            <p class="feature-demo-caption">Multi-Window Support</p>
           </div>
         </div>
       </section>
