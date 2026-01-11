@@ -24,6 +24,27 @@ export default jsxRenderer(({ children, title, current }) => {
           content="Arto is a beautiful, offline-first macOS app for reading Markdown with GitHub-style rendering."
         />
         <meta name="theme-color" content="#0d1117" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta
+          property="og:description"
+          content="Arto is a beautiful, offline-first macOS app for reading Markdown with GitHub-style rendering."
+        />
+        <meta property="og:image" content="https://arto-app.github.io/images/og-image.png" />
+        <meta property="og:url" content="https://arto-app.github.io/" />
+        <meta property="og:site_name" content="Arto" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta
+          name="twitter:description"
+          content="Arto is a beautiful, offline-first macOS app for reading Markdown with GitHub-style rendering."
+        />
+        <meta name="twitter:image" content="https://arto-app.github.io/images/og-image.png" />
+
         <title>{title}</title>
         <link rel="icon" href={basePath("/images/logo.svg")} type="image/svg+xml" />
         <Link href="/app/style.css" rel="stylesheet" />
