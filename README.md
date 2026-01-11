@@ -1,6 +1,6 @@
 # Arto Site
 
-Product website for Arto. Published at [arto-app.github.io/arto-site](https://arto-app.github.io/arto-site).
+Product website for Arto. Published at [arto-app.github.io](https://arto-app.github.io).
 
 ## Tech Stack
 

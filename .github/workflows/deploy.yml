@@ -36,8 +36,6 @@ jobs:
 
       - name: Build
         run: nix develop --command npm run build
-        env:
-          BASE_PATH: /arto-site/
 
       - name: Create .nojekyll
         run: touch ./dist/.nojekyll
